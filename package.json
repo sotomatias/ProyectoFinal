@@ -1,0 +1,47 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "browser-sync": "2.26.7",
+        "del": "5.1.0",
+        "gulp": "4.0.2",
+        "gulp-autoprefixer": "7.0.0",
+        "gulp-clean-css": "4.2.0",
+        "gulp-header": "2.0.9",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "1.4.0",
+        "gulp-sass": "4.0.2",
+        "gulp-uglify": "3.0.2",
+        "merge-stream": "2.0.0",
+        "axios": "^0.19",
+        "cross-env": "^5.1",
+        "laravel-mix": "^4.0.7",
+        "lodash": "^4.17.13",
+        "resolve-url-loader": "^2.3.1",
+        "sass": "^1.15.2",
+        "sass-loader": "^7.1.0"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "5.10.2",
+        "bootstrap": "4.3.1",
+        "jquery": "3.4.1",
+        "jquery.easing": "^1.4.1",
+        "lg-autoplay": "^1.0.4",
+        "lg-fullscreen": "^1.1.0",
+        "lg-hash": "^1.0.4",
+        "lg-pager": "^1.0.2",
+        "lg-share": "^1.1.0",
+        "lg-thumbnail": "^1.1.0",
+        "lg-video": "^1.2.2",
+        "lg-zoom": "^1.1.0",
+        "lightgallery": "^1.6.12"
+    }
+}
