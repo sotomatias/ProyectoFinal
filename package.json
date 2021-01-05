@@ -21,7 +21,7 @@
         "gulp-sass": "4.0.2",
         "gulp-uglify": "3.0.2",
         "merge-stream": "2.0.0",
-        "axios": "^0.19",
+        "axios": "^0.21",
         "cross-env": "^5.1",
         "laravel-mix": "^4.0.7",
         "lodash": "^4.17.13",
